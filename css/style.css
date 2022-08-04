@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Dokdo&display=swap');
+@import "reset.css";
+@import "variables.css";
+
+/* components */
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+/* screens */
+@import "screens/login.css";
+
+body{
+    font-family: 'Dokdo', cursive, 'Black And White Picture', sans-serif;
+}
