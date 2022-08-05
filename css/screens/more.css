@@ -1,0 +1,37 @@
+.user-component__column-icon{ 
+    height : 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.more-function-items {
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column; */
+    padding-top: 30px;
+}
+
+.more-function-items__vertical{
+    width: 25%;
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.more-function-items__horizontal{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.more-function-items__division{
+    display: flex;
+    align-items: center;
+    
+}
+
+.more-function-items , .more-function-items__vertical, .more-function-items__horizontal, .more-function-items__division, {
+    overflow:auto; 
+}
