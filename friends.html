@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Friedn - Kokoa Talk</title>
+    <title>Friends - Kokoa Talk</title>
 </head>
 <body>
     <div class="status-bar">
@@ -34,23 +34,66 @@
         
     </header>
 
+    <a id="friends-display-link">
+        <i class="fa-solid fa-circle-info"></i> Friends' Name Display <i class="fa-solid fa-chevron-right"></i>
+    </a>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://user-images.githubusercontent.com/80461590/182978224-e0bdd61b-de14-4ecb-a38b-1046ee09e5dc.jpg" class="user-component__avatar user-component__avatar--xl" />
+                <div class="user-component__text">
+                    <h4 class="user-component__title">상구</h4>
+                    <!-- <h6 class="user-component__subtitle">This text whatever</h6> -->
+                </div>
+                
+            </div>
+            <div class="user-component__columns"></div>
+        </div>
+
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel </span>
+                <i class="fa-solid fa-chevron-up"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://user-images.githubusercontent.com/80461590/182986234-3faedf92-f622-4899-87a7-970b9f10faa8.jpg" class="user-component__avatar user-component__avatar--sm" />
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        <!-- <h6 class="user-component__subtitle">This text whatever</h6> -->
+
+                    </div>
+                    
+                </div>
+                <div class="user-component__column">
+                    <div>
+                        <span>2</span>
+                        <i class="fa-solid fa-chevron-right fa-2xs"></i>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </main>
 
     <nav class="nav">
         <ul class="nav__list">
-            <li class="nav__btn"><a class="nav__link" href="#">
-                                    
-                                    <i class="fa-solid fa-user"></i>
+            <li class="nav__btn"><a class="nav__link" href="friends.html">
+                                    <i class="fa-solid fa-user fa-2x"></i>
                                 </a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">
-                <span class="nav__notification">1</span>
-                <i class="fa-solid fa-message"></i>
+            <li class="nav__btn"><a class="nav__link" href="chats.html">
+                <span class="nav__notification badge">1</span>
+                <i class="fa-regular fa-comment fa-2x"></i>
                                 </a></li>
-            <li class="nav__btn"><a class="nav__link" href="#"><i class="fa-solid fa-magnifying-glass"></i></a></li>
-            <li class="nav__btn"><a class="nav__link" href="#">
+            <li class="nav__btn"><a class="nav__link" href="find.html">
+                <i class="fa-solid fa-magnifying-glass fa-2x"></i></a>
+            </li>
+            <li class="nav__btn"><a class="nav__link" href="more.html">
                 <span class="nav__notification2"></span>
-                <i class="fa-solid fa-ellipsis"></i>
+                <i class="fa-solid fa-ellipsis fa-2x"></i>
                                 </a></li>
-        </ul>
+        </ul>   
     </nav>
     <script src="https://kit.fontawesome.com/63fe7d24fc.js" crossorigin="anonymous"></script>
 </body>
